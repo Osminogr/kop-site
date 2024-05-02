@@ -23,7 +23,7 @@ const postData: DataType[] = [
         heading: 'Full stack modern',
         heading2: 'javascript',
         name: "Colt stelle",
-        imgSrc: '/assets/courses/courseone.png',
+        imgSrc: './assets/courses/courseone.png',
         students: 150,
         classes: 12,
         price: 20,
@@ -33,7 +33,7 @@ const postData: DataType[] = [
         heading: 'Design system',
         heading2: 'with React programme',
         name: "Colt stelle",
-        imgSrc: '/assets/courses/coursetwo.png',
+        imgSrc: './assets/courses/coursetwo.png',
         students: 130,
         classes: 12,
         price: 20,
@@ -43,7 +43,7 @@ const postData: DataType[] = [
         heading: 'Design banner',
         heading2: 'with Figma',
         name: "Colt stelle",
-        imgSrc: '/assets/courses/coursethree.png',
+        imgSrc: './assets/courses/coursethree.png',
         students: 120,
         classes: 12,
         price: 20,
@@ -53,7 +53,7 @@ const postData: DataType[] = [
         heading: 'We Launch Delia',
         heading2: 'Webflow this Week!',
         name: "Colt stelle",
-        imgSrc: '/assets/courses/courseone.png',
+        imgSrc: './assets/courses/courseone.png',
         students: 150,
         classes: 12,
         price: 20,
@@ -63,7 +63,7 @@ const postData: DataType[] = [
         heading: 'We Launch Delia',
         heading2: 'Webflow this Week!',
         name: "Colt stelle",
-        imgSrc: '/assets/courses/coursetwo.png',
+        imgSrc: './assets/courses/coursetwo.png',
         students: 150,
         classes: 12,
         price: 20,
@@ -73,7 +73,7 @@ const postData: DataType[] = [
         heading: 'We Launch Delia',
         heading2: 'Webflow this Week!',
         name: "Colt stelle",
-        imgSrc: '/assets/courses/coursethree.png',
+        imgSrc: './assets/courses/coursethree.png',
         students: 150,
         classes: 12,
         price: 20,
@@ -170,11 +170,11 @@ export default class MultipleItems extends Component {
 
                                         <div className="flex justify-between pt-6">
                                             <div className="flex gap-4">
-                                                <Image src={'/assets/courses/book-open.svg'} alt="users" width={24} height={24} className="inline-block m-auto" />
+                                                <Image src={'./assets/courses/book-open.svg'} alt="users" width={24} height={24} className="inline-block m-auto" />
                                                 <h3 className="text-base font-medium text-black opacity-75">{items.classes} classes</h3>
                                             </div>
                                             <div className="flex gap-4">
-                                                <Image src={'/assets/courses/users.svg'} alt="users" width={24} height={24} className="inline-block m-auto" />
+                                                <Image src={'./assets/courses/users.svg'} alt="users" width={24} height={24} className="inline-block m-auto" />
                                                 <h3 className="text-base font-medium text-black opacity-75">{items.students} students</h3>
                                             </div>
                                         </div>
