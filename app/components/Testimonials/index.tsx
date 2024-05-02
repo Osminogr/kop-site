@@ -15,28 +15,22 @@ interface DataType {
 
 const postData: DataType[] = [
     {
-        name: "Дарья Черноусова",
-        profession: 'CEO',
-        comment: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
-        imgSrc: '/assets/testimonial/user.svg',
-    },
-    {
         name: "Ирина Шенкаренко",
-        profession: 'Менеджер',
-        comment: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
-        imgSrc: '/assets/mentor/user2.png',
+        profession: 'Менеджер по продажам',
+        comment: 'Наш проект - это компиляция различных уже известных методик, с вкраплением уникального подхода. Основываясь на уже известных программах диагностики персонала, которые с годами  подтвердили свою эффективность, мы добавили особый подход: наши "засланные казачки" под видом реальных клиентов устраивают своего рода перформанс, смотрят на реакцию персонала, взаимодействуют с ними особенным образом и строго индивидуально, что делает диагностику эффективной. Одно дело, ответить на вопросы в тесте, понимая, зачем он проводится, а другое - абсолютно органично и без задней мысли взаимодействовать на работе с "реальным клиентом", не чувствуя подвоха.',
+        imgSrc: 'assets/mentor/user2.png',
     },
     {
         name: "Анна Лунина",
-        profession: 'CEO, Parkview Int.Ltd',
-        comment: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
-        imgSrc: '/assets/mentor/user3.png',
+        profession: 'Менеджер по продажам',
+        comment: 'Мы разработали спектр услуг, подходящий именно для оценки бизнеса в сфере услуг. Помимо диагностики мы также проводим:мастер-классы по взаимодействию сотрудников друг с другом и с клиентами, тренингм по корпоративной культуре, консультации с управляющим звеном. Всё это проводится с учетом ваших индивидуальных потребностей и может стать незаменимым инструментом в построении сильного бизнеса, крепко стоящего на ногах.',
+        imgSrc: 'assets/mentor/user1.png',
     },
     {
-        name: "Михаил Барсуков",
-        profession: 'Разработчик',
-        comment: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
-        imgSrc: '/assets/mentor/user1.png',
+        name: "Дарья Черноусова",
+        profession: 'PR-менеджер',
+        comment: 'Мы изучили большое количество методик, сравнивая их и оценивая. Подобрали наиболее подходящие и адаптировали их под сферу услуг, где сотрудники напрямую контактируют с клиентами. Помимо оценки извне, о сотруднике также в формате опроса отзываются коллеги и начальство, выходит отличная всесторонняя характеристика. Получилось интересно, рекомендую попробовать!',
+        imgSrc: 'assets/mentor/user3.png',
     },
 ]
 
@@ -92,12 +86,12 @@ export default class MultipleItems extends Component {
         return (
             <div className="pt-40 pb-10 sm:pb-32 lg:py-32" id="testimonial">
                 <div className='mx-auto max-w-7xl sm:py-4 lg:px-8'>
-                <h3 className="text-4xl md:text-55xl text-center font-semibold text-black mb-3">Мнения о нас.</h3>
+                <h3 className="text-4xl md:text-55xl text-center font-semibold text-black mb-3">Мнения наших специалистов</h3>
                     <Slider {...settings}>
                         {postData.map((items, i) => (
                             <div key={i}>
                                 <div className={`bg-white m-4 p-5 my-20 relative ${i % 2 ? 'middleDiv' : 'testimonial-shadow'}`}>
-                                    <div className="absolute top-[-45px]">
+                                    <div className="absolute top-[-70px]">
                                         <Image src={items.imgSrc} alt={items.imgSrc} width={100} height={100} className="inline-block" />
                                     </div>
                                     <h4 className='text-base font-normal text-darkgray my-4'>{items.comment}</h4>

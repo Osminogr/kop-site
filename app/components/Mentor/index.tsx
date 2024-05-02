@@ -13,18 +13,18 @@ interface DataType {
 
 const postData: DataType[] = [
     {
-        profession: 'Senior UX Designer',
-        name: 'Shoo Thar Mien',
+        profession: 'Менеджер по продажам',
+        name: 'Анна Лунина',
         imgSrc: 'assets/mentor/user1.png',
     },
     {
-        profession: 'Senior UX Designer',
-        name: 'Shoo Thar Mien',
+        profession: 'Менеджер по продажам',
+        name: 'Ирина Шенкаренко',
         imgSrc: 'assets/mentor/user2.png',
     },
     {
-        profession: 'Senior UX Designer',
-        name: 'Shoo Thar Mien',
+        profession: 'PR-менеджер',
+        name: 'Дарья Черноусова',
         imgSrc: 'assets/mentor/user3.png',
     },
 ]
@@ -114,10 +114,9 @@ export default class MultipleItems extends Component {
                             <div key={i}>
                                 <div className='m-3 py-14 md:my-10 text-center'>
                                     <div className="relative">
-                                        <Image src={items.imgSrc} alt="user-image" width={306} height={0} className="inline-block m-auto" />
-                                        <div className="absolute right-[84px] bottom-[102px] bg-white rounded-full p-4">
-                                            <Image src={'assets/mentor/linkedin.svg'} alt="linkedin-image" width={25} height={24} />
-                                        </div>
+                                        <Image src={items.imgSrc} alt="user-image" width={200} height={0} className="inline-block m-auto" />
+                                        <br/>
+                                        <br/>
                                     </div>
                                     <div className="-mt-10">
                                         <h3 className='text-2xl font-semibold text-lightblack'>{items.name}</h3>

@@ -20,65 +20,36 @@ interface DataType {
 
 const postData: DataType[] = [
     {
-        heading: 'Full stack modern',
-        heading2: 'javascript',
-        name: "Colt stelle",
+        heading: 'Анализ с тайным покупателем',
+        heading2: 'на рабочем месте',
+        name: "",
         imgSrc: 'assets/courses/courseone.png',
-        students: 150,
-        classes: 12,
-        price: 20,
+        students: 1,
+        classes: "От 10",
+        price: "Договорная",
         rating: 4.7,
     },
     {
-        heading: 'Design system',
-        heading2: 'with React programme',
-        name: "Colt stelle",
+        heading: 'Тестирование 360°',
+        heading2: '',
+        name: "",
         imgSrc: 'assets/courses/coursetwo.png',
-        students: 130,
-        classes: 12,
-        price: 20,
+        students: "5",
+        classes: 10,
+        price: '5000 RUB',
         rating: 4.7,
     },
     {
-        heading: 'Design banner',
-        heading2: 'with Figma',
-        name: "Colt stelle",
+        heading: 'Тестирование 540°',
+        heading2: '3',
+        name: "",
         imgSrc: 'assets/courses/coursethree.png',
-        students: 120,
-        classes: 12,
-        price: 20,
+        students: 5,
+        classes: 20,
+        price: '8000 RUB',
         rating: 4.7,
     },
-    {
-        heading: 'We Launch Delia',
-        heading2: 'Webflow this Week!',
-        name: "Colt stelle",
-        imgSrc: 'assets/courses/courseone.png',
-        students: 150,
-        classes: 12,
-        price: 20,
-        rating: 4.7,
-    },
-    {
-        heading: 'We Launch Delia',
-        heading2: 'Webflow this Week!',
-        name: "Colt stelle",
-        imgSrc: 'assets/courses/coursetwo.png',
-        students: 150,
-        classes: 12,
-        price: 20,
-        rating: 4.7,
-    },
-    {
-        heading: 'We Launch Delia',
-        heading2: 'Webflow this Week!',
-        name: "Colt stelle",
-        imgSrc: 'assets/courses/coursethree.png',
-        students: 150,
-        classes: 12,
-        price: 20,
-        rating: 4.7,
-    },
+
 ]
 
 // CAROUSEL SETTINGS
@@ -125,8 +96,7 @@ export default class MultipleItems extends Component {
                 <div className='mx-auto max-w-7xl sm:py-8 px-4 lg:px-8 '>
 
                     <div className="sm:flex justify-between items-center">
-                        <h3 className="text-midnightblue text-4xl lg:text-55xl font-semibold mb-5 sm:mb-0">Popular courses.</h3>
-                        <Link href={'/'} className="text-Blueviolet text-lg font-medium space-links">Explore courses&nbsp;&gt;&nbsp;</Link>
+                        <h3 className="text-midnightblue text-4xl lg:text-55xl font-semibold mb-5 sm:mb-0">Услуги</h3>
                     </div>
 
 
@@ -138,7 +108,7 @@ export default class MultipleItems extends Component {
                                     <div className="relative rounded-3xl">
                                         <Image src={items.imgSrc} alt="gaby" width={389} height={262} className="m-auto clipPath" />
                                         <div className="absolute right-5 -bottom-2 bg-ultramarine rounded-full p-6">
-                                            <h3 className="text-white uppercase text-center text-sm font-medium">best <br /> seller</h3>
+                                            <h3 className="text-white uppercase text-center text-sm font-medium">Новинка</h3>
                                         </div>
                                     </div>
 
@@ -152,17 +122,12 @@ export default class MultipleItems extends Component {
 
                                         <div className="flex justify-between items-center py-6">
                                             <div className="flex gap-4">
-                                                <h3 className="text-red text-22xl font-medium">{items.rating}</h3>
+                                                <h3 className="text-red text-22xl font-medium"></h3>
                                                 <div className="flex">
-                                                    <StarIcon className="h-5 w-5 text-gold" />
-                                                    <StarIcon className="h-5 w-5 text-gold" />
-                                                    <StarIcon className="h-5 w-5 text-gold" />
-                                                    <StarIcon className="h-5 w-5 text-gold" />
-                                                    <StarIcon className="h-5 w-5 text-gold" />
                                                 </div>
                                             </div>
                                             <div>
-                                                <h3 className="text-3xl font-medium">${items.price}</h3>
+                                                <h3 className="text-3xl font-medium">Цена: {items.price}</h3>
                                             </div>
                                         </div>
 
@@ -171,11 +136,11 @@ export default class MultipleItems extends Component {
                                         <div className="flex justify-between pt-6">
                                             <div className="flex gap-4">
                                                 <Image src={'assets/courses/book-open.svg'} alt="users" width={24} height={24} className="inline-block m-auto" />
-                                                <h3 className="text-base font-medium text-black opacity-75">{items.classes} classes</h3>
+                                                <h3 className="text-base font-medium text-black opacity-75">{items.classes} тестов</h3>
                                             </div>
                                             <div className="flex gap-4">
                                                 <Image src={'assets/courses/users.svg'} alt="users" width={24} height={24} className="inline-block m-auto" />
-                                                <h3 className="text-base font-medium text-black opacity-75">{items.students} students</h3>
+                                                <h3 className="text-base font-medium text-black opacity-75">{items.students} сотрудников</h3>
                                             </div>
                                         </div>
                                     </div>
