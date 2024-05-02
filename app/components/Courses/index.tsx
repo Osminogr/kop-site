@@ -13,8 +13,8 @@ interface DataType {
     imgSrc: string;
     name: string;
     students: number;
-    classes: number;
-    price: number;
+    classes: string;
+    price: string;
     rating: number;
 }
 
@@ -34,8 +34,8 @@ const postData: DataType[] = [
         heading2: '',
         name: "",
         imgSrc: 'assets/courses/coursetwo.png',
-        students: "5",
-        classes: 10,
+        students: 5,
+        classes: "От 10",
         price: '5000 RUB',
         rating: 4.7,
     },
@@ -45,7 +45,7 @@ const postData: DataType[] = [
         name: "",
         imgSrc: 'assets/courses/coursethree.png',
         students: 5,
-        classes: 20,
+        classes: "От 20",
         price: '8000 RUB',
         rating: 4.7,
     },
