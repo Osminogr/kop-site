@@ -1,5 +1,5 @@
 1:HL["/kop-site/_next/static/css/88bbf8905c943f97.css","style",{"crossOrigin":""}]
-0:["N-SBCel3_3ZmYbpol2wkt",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/kop-site/_next/static/css/88bbf8905c943f97.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
+0:["GHA5zWPe2G6Exvtoal-GQ",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/kop-site/_next/static/css/88bbf8905c943f97.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
 4:I[2134,["363","static/chunks/363-b7fdd4a8574993f7.js","185","static/chunks/app/layout-bb175080a5b55c41.js"],""]
 5:I[6954,[],""]
 6:I[7264,[],""]
