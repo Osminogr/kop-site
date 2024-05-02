@@ -3,7 +3,8 @@ const nextConfig = {
     basePath: "/kop-site",
     output: "export",  // <=== enables static exports
     reactStrictMode: true,
-    distDir: 'build'
+    distDir: 'build',
+    assetPrefix: '/kop-site/',
   };
 
 module.exports = nextConfig
