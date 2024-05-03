@@ -63,7 +63,7 @@ const footer = () => {
                     <div className="flex flex-shrink-0 items-center border-right">
                         <img src="assets/logo/logo.svg" alt="logo" width={214} height={66} />
                     </div>
-                    <h3 className='text-xs font-medium text-gunmetalgray lh-160 mt-5 mb-4 lg:mb-16'> Получите КП оствив заявку на сайте. <br /> Мы свяжемся с вами в ближайшее время.</h3>
+                    <h3 className='text-xs font-medium text-gunmetalgray lh-160 mt-5 mb-4 lg:mb-16'> Получите КП оставив заявку на сайте. <br /> Мы свяжемся с вами в ближайшее время.</h3>
                     <div className='flex gap-4'>
 
                     
