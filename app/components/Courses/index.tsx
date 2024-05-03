@@ -41,7 +41,7 @@ const postData: DataType[] = [
     },
     {
         heading: 'Тестирование 540°',
-        heading2: '3',
+        heading2: '',
         name: "",
         imgSrc: 'assets/courses/coursethree.png',
         students: 5,
