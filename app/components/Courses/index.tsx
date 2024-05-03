@@ -106,7 +106,7 @@ export default class MultipleItems extends Component {
 
                                 <div className='bg-white m-3 px-3 pt-3 pb-12 my-20 shadow-courses rounded-2xl'>
                                     <div className="relative rounded-3xl">
-                                        <Image src={items.imgSrc} alt="gaby" width={389} height={262} className="m-auto clipPath" />
+                                        <img src={items.imgSrc} alt="gaby" width={389} height={262} className="m-auto clipPath" />
                                         <div className="absolute right-5 -bottom-2 bg-ultramarine rounded-full p-6">
                                             <h3 className="text-white uppercase text-center text-sm font-medium">Новинка</h3>
                                         </div>
@@ -135,11 +135,11 @@ export default class MultipleItems extends Component {
 
                                         <div className="flex justify-between pt-6">
                                             <div className="flex gap-4">
-                                                <Image src={'assets/courses/book-open.svg'} alt="users" width={24} height={24} className="inline-block m-auto" />
+                                                <img src={'assets/courses/book-open.svg'} alt="users" width={24} height={24} className="inline-block m-auto" />
                                                 <h3 className="text-base font-medium text-black opacity-75">{items.classes} тестов</h3>
                                             </div>
                                             <div className="flex gap-4">
-                                                <Image src={'assets/courses/users.svg'} alt="users" width={24} height={24} className="inline-block m-auto" />
+                                                <img src={'assets/courses/users.svg'} alt="users" width={24} height={24} className="inline-block m-auto" />
                                                 <h3 className="text-base font-medium text-black opacity-75">{items.students} сотрудников</h3>
                                             </div>
                                         </div>

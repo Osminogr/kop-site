@@ -114,7 +114,7 @@ export default class MultipleItems extends Component {
                             <div key={i}>
                                 <div className='m-3 py-14 md:my-10 text-center'>
                                     <div className="relative">
-                                        <Image src={items.imgSrc} alt="user-image" width={200} height={0} className="inline-block m-auto" />
+                                        <img src={items.imgSrc} alt="user-image" width={200} height={0} className="inline-block m-auto" />
                                         <br/>
                                         <br/>
                                     </div>

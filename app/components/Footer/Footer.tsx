@@ -61,7 +61,7 @@ const footer = () => {
 
                 <div className='sm:col-span-6 lg:col-span-5'>
                     <div className="flex flex-shrink-0 items-center border-right">
-                        <Image src="assets/logo/logo.svg" alt="logo" width={214} height={66} />
+                        <img src="assets/logo/logo.svg" alt="logo" width={214} height={66} />
                     </div>
                     <h3 className='text-xs font-medium text-gunmetalgray lh-160 mt-5 mb-4 lg:mb-16'> Получите КП оствив заявку на сайте. <br /> Мы свяжемся с вами в ближайшее время.</h3>
                     <div className='flex gap-4'>
